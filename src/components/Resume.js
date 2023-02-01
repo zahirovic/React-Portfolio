@@ -8,7 +8,7 @@ function Resume() {
         <hr />
 
         <a
-          className="button is-primary"
+          className="button is-purple"
           href={process.env.PUBLIC_URL + "/melisa-zahirovic-resume.pdf"}
           target="_blank"
           rel="noreferrer"
@@ -16,7 +16,7 @@ function Resume() {
           <span className="icon">
             <i className="fas fa-download"></i>
           </span>
-          <span>Download Resume</span>
+          <span>View Resume</span>
         </a>
       </div>
       <div className="column">
