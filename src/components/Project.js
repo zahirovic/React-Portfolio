@@ -5,12 +5,15 @@ function Project(props) {
     <div>
       <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
         {props.projects.map((project) => (
-          <div className="column is-half">
+          <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-4by3">
+                <figure className="image">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder"/>
+                    <img
+                      src={process.env.PUBLIC_URL + project.image}
+                      alt="Placeholder"
+                    />
                   </a>
                 </figure>
               </div>
@@ -18,37 +21,37 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <p className="title is-4" key={project.id}>
+                    <p className="title" key={project.id}>
                       {project.title}
                     </p>
                   </div>
                 </div>
 
-                <div className="content has-text-left">
+                <div className="content has-text-center">
                   {project.description}
                   <br />
                   <br />
                   <div className="content is-family-code">
                     Languages: {project.languages}
-                    <br />
-                    npm Packages: {project.packages}
                   </div>
                   <div className="card">
                     <footer className="card-footer">
                       <a
                         href={project.repo}
                         className="card-footer-item"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        Visit the Repository!
+                        Repository
                       </a>
                       <br />
                       <a
                         href={project.live}
                         className="card-footer-item"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        View the live site!
+                        Live Site
                       </a>
                     </footer>
                   </div>
