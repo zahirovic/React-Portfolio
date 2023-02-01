@@ -10,7 +10,7 @@ function Header() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case "About":
+      case "About Me":
         return <About />;
       case "Portfolio":
         return <Portfolio />;
