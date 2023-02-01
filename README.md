@@ -17,7 +17,9 @@ This tool was created to practice the following skills:
 - Node.js
 - deploying with React
 
-#### The work done can be found on the GitHub repository [zahirovic/React-Portfolio](https://github.com/zahirovic/React-Portfolio) and should look along the lines of this:
+#### The work done can be found on the GitHub repository [zahirovic/React-Portfolio](https://github.com/zahirovic/React-Portfolio).
+
+The live site can be found [here](https://zahirovic.github.io/React-Portfolio/) and should look along the lines of this:
 
 ![React-Portfolio-Example](images/react-portoflio.png)
 
