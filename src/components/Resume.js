@@ -1,20 +1,16 @@
 import React from "react";
+import myResume from './resume.png';
 
 function Resume() {
   return (
     <div className="columns">
       <div className="column">
         <p className="content is-medium">Resume</p>
-        <hr />
+        <div>
+      <img src={myResume} alt="Resume" height="200" />
 
-        <a
-
-        >
-          <span className="icon">
-            <i className="fas fa-download"></i>
-          </span>
-          <span>View Resume</span>
-        </a>
+      <br />
+      </div>
       </div>
       <div className="column">
         <p className="content is-medium">My Skills</p>

@@ -1,28 +1,10 @@
 import React, { useState } from "react";
 import About from "./About";
-import Contact from "./Contact";
 import Navigation from "./Navigation";
-import Portfolio from "./Portfolio";
-import Resume from "./Resume";
+
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About");
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case "About Me":
-        return <About />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-
-      default:
-        return <About />;
-    }
-  };
 
   return (
     <div>
@@ -32,7 +14,7 @@ function Header() {
             className="navbar-item"
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/zahirovic?tab=repositories"
+            href="https://zahirovic.github.io/React-Portfolio/"
           >
             <span className="content is-large">Melisa Zahirovic</span>
           </a>
@@ -42,9 +24,6 @@ function Header() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      <main>
-        <div>{renderPage(currentPage)}</div>
-      </main>
     </div>
   );
 }
