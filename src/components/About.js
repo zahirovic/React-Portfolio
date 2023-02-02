@@ -5,7 +5,7 @@ function About() {
   return (
     <div class="container">
       <div class="notification is-link is-light">
-<div class="box is-medium">
+<div class="box is-medium is-center">
   <article class="media">
     <div class="media-left">
       <figure class="image is-64x64">
