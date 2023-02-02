@@ -12,6 +12,11 @@ function Resume() {
       <br />
       </div>
       </div>
+          <div class="container">
+    <div class="notification is-link is-light">
+<div class="box is-medium">
+<article class="media">
+  <div class="media-left">
       <div className="column">
         <p className="content is-medium">My Skills</p>
         <hr />
@@ -26,6 +31,11 @@ function Resume() {
         </ul>
       </div>
     </div>
+        </article>
+    </div>
+  </div>
+</div>
+</div>
   );
 }
 
