@@ -19,7 +19,7 @@ function About() {
           <br></br>
           I am a full-stack engineering student at the University of Minnesota coding bootcamp.
         </p>
-        <p>I excel at researching and utilizing my resources to better understand concepts for both myself and my team. With the information I have learned over my time in the bootcamp I would like to pursue a career on programming as well as further my education in computer science. </p>
+        <p>I excel at researching and utilizing my resources to better understand concepts for both myself and my team. With the information I have learned over my time in the bootcamp, I would like to pursue a career in programming as well as further my education in computer science. </p>
       </div>
     </div>
   </article>
