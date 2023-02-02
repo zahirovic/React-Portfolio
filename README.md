@@ -21,7 +21,7 @@ This tool was created to practice the following skills:
 
 The live site can be found [here](https://zahirovic.github.io/React-Portfolio/) and should look along the lines of this:
 
-![React-Portfolio-Example](public/images/react-portoflio.png)
+![React-Portfolio-Example](public/images/react-portfolio.png)
 
 
 
