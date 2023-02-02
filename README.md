@@ -32,6 +32,8 @@ The live site can be found [here](https://zahirovic.github.io/React-Portfolio/) 
 - [Bulma](https://bulma.io/)
 - [Coolers Color Palette](https://coolors.co/4a006f-470a77-45147e-421e86-3f288d-3d3195-3a3b9c-3745a4-354fab-3259b3)
 - [Coding Beauty on linking images in React](https://codingbeautydev.com/blog/react-link-image/#:~:text=To%20link%20a%20local%20image,prop%20of%20an%20img%20element.&text=Linking%20and%20displaying%20an%20image,tool%20like%20Create%20React%20App.)
+- [GeeksForGeeks Tutorial](https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/)
+- [retool on building a navbar in react](https://retool.com/blog/building-a-react-navbar/)
 
 
 ## Features
