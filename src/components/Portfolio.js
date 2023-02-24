@@ -20,6 +20,15 @@ const projects = [
       repo: "https://github.com/zahirovic/prework-study-guide",
       live: "https://zahirovic.github.io/prework-study-guide/",
     },
+    {
+      id: 1,
+      title: "Badify",
+      languages: "CSS, HTML, Javascript, React, React-Bootstrap",
+      image: "/images/badify",
+      description: "A group project showing you a daily bad song.",
+      repo: "https://github.com/Nwsheats/BADIFY",
+      live: "https://badify.herokuapp.com/",
+    },
   ];
   
   function Portfolio() {
