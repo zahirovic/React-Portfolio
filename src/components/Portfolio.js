@@ -15,7 +15,7 @@ const projects = [
       id: 1,
       title: "Badify",
       languages: "CSS, HTML, Javascript, React, React-Bootstrap",
-      image: "/images/badify",
+      image: "/images/badify.png",
       description: "A group project showing you a daily bad song.",
       repo: "https://github.com/Nwsheats/BADIFY",
       live: "https://badify.herokuapp.com/",
