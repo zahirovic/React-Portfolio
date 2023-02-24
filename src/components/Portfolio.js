@@ -21,7 +21,7 @@ const projects = [
       live: "https://zahirovic.github.io/prework-study-guide/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Badify",
       languages: "CSS, HTML, Javascript, React, React-Bootstrap",
       image: "/images/badify",
