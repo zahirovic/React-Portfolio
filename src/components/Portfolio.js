@@ -13,15 +13,6 @@ const projects = [
     },
     {
       id: 1,
-      title: "Pre-Work Study Guide",
-      languages: "CSS, HTML, Javascript",
-      image: "/images/pre-work-study-guide.png",
-      description: "This was my first coding project as a student. It is a note taking study guide.",
-      repo: "https://github.com/zahirovic/prework-study-guide",
-      live: "https://zahirovic.github.io/prework-study-guide/",
-    },
-    {
-      id: 2,
       title: "Badify",
       languages: "CSS, HTML, Javascript, React, React-Bootstrap",
       image: "/images/badify",
